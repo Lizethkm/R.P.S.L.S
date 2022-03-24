@@ -58,7 +58,6 @@ class Game:
 
     def run_game(self):
         self.display_greeting()
-        self.display_rules()
         self.choose_game_type()
 
         
