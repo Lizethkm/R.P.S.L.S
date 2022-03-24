@@ -11,8 +11,11 @@ class Player:
         # when human inferits player the method can be default
         self.gestures_list = ['Scissors', 'Spock','Paper','Lizards','Rock']
     
-    def chose_gesture(self):
-        pass
+    def choose_gesture(self):
+        index = 0
+        for gestures in self.gestures_list:
+            print(f" Type {index} for {gestures}")
+            index += 1
 
         
 
