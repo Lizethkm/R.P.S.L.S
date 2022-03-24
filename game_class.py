@@ -63,7 +63,8 @@ class Game:
         
 
     def compare_gestures(self):
-        self.choose_gesture()
+        pass
+        # should compare the two inputs from the players responses and choose which one is greater
 
     def display_winner(self,winner):
         print(f"{winner} has one the game")
