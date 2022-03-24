@@ -18,8 +18,6 @@
 # Game 
 # Human [Child to player] 
 # AI [Child to player] 
-
-# NO GESTURE CLASS UNTIL MVP (Bare Minimum) 
 from game_class import Game
 game = Game()
 game.run_game()
