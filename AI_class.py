@@ -11,5 +11,10 @@ class Ai(Player):
 
     # tested and works. Randomizes the ai choice of gesture
     def choose_gesture(self):
-        ai_gesture= random.choice(self.gestures_list)
-        return ai_gesture
+            ai_gesture= random.choice(self.gestures_list)
+            # ai_choose = 
+            # return ai_choose
+            return ai_gesture
+ai = Ai()
+gesture = ai.choose_gesture()
+print(gesture)
