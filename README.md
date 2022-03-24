@@ -1,19 +1,13 @@
 # R.P.S.L.S
 Inheritance Project
 Here is how it works:
-- Scissors cuts Paper *
-- Scissors decapitates Lizard *
-- Spock smashes Scissors *
-- Spock vaporizes Rock *
-- Paper covers Rock *
-- Paper disproves Spock *
-- Lizard poisons Spock *
-- Lizard eats Paper *
+- Scissors cuts Paper
+- Scissors decapitates Lizard 
+- Spock smashes Scissors 
+- Spock vaporizes Rock 
+- Paper covers Rock 
+- Paper disproves Spock 
+- Lizard poisons Spock 
+- Lizard eats Paper 
 - Rock crushes Scissors 
 - Rock crushes Lizard 
-['Scissors', 'Spock','Paper','Lizards','Rock']
-Scissors = 0
-Spock = 1
-Paper = 2
-Lizards = 3
-Rock = 4

@@ -1,12 +1,6 @@
-
-
-
 class Player:
     def __init__(self):
         self.wins = 0
-        # Where we can have a default choose gesture method
-        # when ai inherits player the method can change to random
-        # when human inferits player the method can be default
         self.gestures_list = ['Scissor', 'Spock','Paper','Lizard','Rock']
     
     def choose_gesture(self):
@@ -23,6 +17,9 @@ class Player:
              break
 
         return self.gestures_list[user_gesture_index]
+
+
+
         
         
 
